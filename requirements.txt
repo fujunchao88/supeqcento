@@ -1,0 +1,4 @@
+environs
+peewee
+peewee_async
+sanic==0.5.4
