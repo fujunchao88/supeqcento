@@ -1,37 +1,11 @@
-.
-├── README.md
-├── requirements.txt
-└── supeqcento
-    ├── build.py
-    ├── bussiness
-    │   ├── asset
-    │   │   └── __init__.py
-    │   ├── data
-    │   │   ├── __init__.py
-    │   │   └── model.py
-    │   ├── device
-    │   │   └── __init__.py
-    │   ├── __init__.py
-    │   ├── organization
-    │   │   └── __init__.py
-    │   ├── routes.py
-    │   └── user
-    │       ├── __init__.py
-    │       ├── test_user.py
-    │       ├── user_operation.py
-    │       ├── user_route.py
-    │       └── user_service.py
-    ├── extensions
-    │   ├── email
-    │   │   └── __init__.py
-    │   ├── __init__.py
-    │   └── lbmp
-    │       └── __init__.py
-    ├── __init__.py
-    ├── __init__.pyc
-    ├── libs
-    │   └── __init__.py
-    └── run.py
+## 目录
+[项目任务](https://github.com/fujunchao88/supeqcento/wiki/SupeqCento-Tasks)  
+[目录结构](https://github.com/fujunchao88/supeqcento/wiki/SupeqCento-Catalog-Struct)  
+[数据脚本](https://github.com/fujunchao88/supeqcento/wiki/SupeqCento-DB-Initial-Script)
+
+## 启动
+```
+python run.py -h
 
 usage: run.py [-h] --host HOST --port PORT [--workers WORKERS] [--debug]
               {supeqcento,email}
@@ -45,3 +19,4 @@ optional arguments:
   --port PORT
   --workers WORKERS   multiple processes,by default using only one CPU core
   --debug
+```
